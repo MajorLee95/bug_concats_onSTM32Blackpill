@@ -1,8 +1,8 @@
 # Purpose
 
-The purpose of this repository is to find an error that appeared at compilation time with ARDUINO IDE 2.3.8 and STM32 Blackpill. in the port of 
+The purpose of this repository is to find an error that appeared at compilation time with ARDUINO IDE 2.3.8 and STM32 Blackpill v2.12.0. in the port of 
 Mechaduino code (https://github.com/jcchurch13/Mechaduino-Hardware)
-From SAMD21 to STM32F401.
+From SAMD21 to STM32F411.
 
 # The error
 
@@ -14,3 +14,5 @@ Local\Arduino15\packages\STMicroelectronics\hardware\stm32\2.12.0\libraries\USBD
 ```
 
 This bug appears because of the name of the files Utils.cpp and Utils.h. To clean it it is very simple, just rename this 2 files !
+
+Check the commits
