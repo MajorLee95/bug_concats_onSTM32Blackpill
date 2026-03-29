@@ -3,7 +3,7 @@
 
 #include "Parameters.h"
 // #include "State.h"
-// #include "Utils.h"
+#include "fonctions.h"
 #include "Controller.h"
 // #include "analogFastWrite.h"
  #include "HardwareTimer.h"
@@ -25,7 +25,7 @@ void setup() {
     Serial.println(identifier);
     Serial.println("*** PORTÉ DE SAMD21 vers STM32F401CCU6 ***\n");
 
-    // setupPins();
+    setupPins();
     // setupSPI();
     
     // *** STM32F401 PORT : CONFIG TIMER CONTRÔLE (remplace setupTCInterrupts SAMD21) ***
